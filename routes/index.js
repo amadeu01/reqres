@@ -84,6 +84,10 @@ module.exports = {
 
 	logout: function(req, res, next) {
 		return res.status(200).send({});
+	},
+
+	noContent: function(req, res, next) {
+		return res.status(204).send({});
 	}
 
 };

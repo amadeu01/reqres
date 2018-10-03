@@ -52,6 +52,15 @@ app.get("/", function(req, res, next) {
 app.post("/api/login", routes.login);
 app.post("/api/login/", routes.login);
 
+app.post("/api/no_content", routes.noContent);
+app.post("/api/no_content/*", routes.noContent);
+
+app.put("/api/no_content/*", routes.noContent);
+app.put("/api/no_content", routes.noContent);
+
+app.get("/api/no_content/*", routes.noContent);
+app.get("/api/no_content", routes.noContent);
+
 app.post("/api/register", routes.register);
 app.post("/api/register/", routes.register);
 

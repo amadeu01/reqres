@@ -50,6 +50,21 @@ window.addEventListener("load", function() {
 				"job": "zion resident"
 			}
 		},
+		"post-no-content": {
+			url: "no_content/",
+			type: "post",
+			data: null
+		},
+		"put-no-content": {
+			url: "no_content/",
+			type: "put",
+			data: null
+		},
+		"get-no-content": {
+			url: "no_content/",
+			type: "get",
+			data: null
+		},
 		"patch": {
 			url: "users/2",
 			type: "patch",
